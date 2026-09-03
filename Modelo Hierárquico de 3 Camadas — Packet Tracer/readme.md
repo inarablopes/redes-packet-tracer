@@ -2,11 +2,11 @@
 
 Prática de montagem de uma topologia hierárquica (Núcleo, Distribuição e Acesso), endereçamento IP, configuração via CLI e testes de conectividade ponta a ponta.
 
-## 🎯 Objetivo
+## Objetivo
 
 Sair de uma topologia "desenhada" para uma rede realmente funcional, aplicando o **Modelo Hierárquico de 3 Camadas**, um padrão de projeto usado em redes corporativas de qualquer tamanho.
 
-## 📚 Conceitos — as 3 camadas
+## Conceitos — as 3 camadas
 
 | Camada | Dispositivo | Função |
 |---|---|---|
