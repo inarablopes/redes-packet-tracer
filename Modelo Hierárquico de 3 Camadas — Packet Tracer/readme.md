@@ -6,10 +6,6 @@ Prática de montagem de uma topologia hierárquica (Núcleo, Distribuição e Ac
 
 Sair de uma topologia "desenhada" para uma rede realmente funcional, aplicando o **Modelo Hierárquico de 3 Camadas**, um padrão de projeto usado em redes corporativas de qualquer tamanho.
 
-## 🖼️ Topologia
-
-![Topologia do laboratório](topologia.png)
-
 ## 📚 Conceitos — as 3 camadas
 
 | Camada | Dispositivo | Função |
@@ -25,13 +21,13 @@ Sair de uma topologia "desenhada" para uma rede realmente funcional, aplicando o
 
 **Por que importa:** essa separação em camadas funciona como defesa em profundidade. Um incidente na Camada de Acesso (ex: SYN Flood, tempestade de broadcast) tende a ficar contido ali, sem afetar o Núcleo — a hierarquia limita o "raio de explosão" de qualquer problema.
 
-## 🔌 Conexões físicas
+##  Conexões físicas
 
 - Cabo automático: opção "Automatically Choose Connection Type" habilitada, para o Packet Tracer escolher entre reto/crossover.
 - Status do link pela cor da bolinha: verde = ativo, laranja piscando = negociando, vermelho/ausente = problema (interface desligada, cabo incompatível ou porta errada).
 - Link vermelho persistente: verificar aba **Physical** do dispositivo — módulos de rede às vezes precisam ser adicionados manualmente (com o equipamento desligado).
 
-## 🧮 Plano de endereçamento IP
+## Plano de endereçamento IP
 
 Rede única (192.168.1.0/24), sem VLANs nessa etapa.
 
@@ -65,11 +61,11 @@ R-Core# show ip interface brief
 - `administratively down` → falta o `no shutdown`
 - `down` (sem "administratively") → problema físico (cabo/link) ou configuração incorreta
 
-## 🖥️ Configuração dos PCs
+##  Configuração dos PCs
 
 Em cada PC: aba **Desktop → IP Configuration → Static**, preenchendo IP, máscara e gateway conforme a tabela acima. Repetir para os 5 PCs.
 
-## ✅ Testes de conectividade
+## Testes de conectividade
 
 Do mais simples ao mais complexo, para isolar onde está o problema (se houver):
 
@@ -86,9 +82,6 @@ Do mais simples ao mais complexo, para isolar onde está o problema (se houver):
    ping 192.168.1.1
    ```
 
-## 🎥 Demonstração
-
-![Demonstração dos testes de conectividade](demo-conectividade.gif)
 
 ## 🔧 Diagnóstico (se algum ping falhar)
 
@@ -100,8 +93,3 @@ Checar de baixo para cima:
 4. A interface do Roteador está `up/up`? → `show ip interface brief`
 5. Os dispositivos estão na mesma rede/máscara? → revisar tabela de endereçamento
 
-## 📌 Próximos passos
-
-- Adicionar mais dispositivos à topologia
-- Implementar VLANs na camada de Distribuição
-- Explorar roteamento entre VLANs (inter-VLAN routing)
