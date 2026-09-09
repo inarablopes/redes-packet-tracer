@@ -2,7 +2,7 @@
 
 Repositório com laboratórios, exercícios e projetos de redes de computadores, usando principalmente o **Cisco Packet Tracer**.
 
-## 📋 Sobre
+## Sobre
 
 Este repositório reúne topologias, configurações e anotações de estudos práticos sobre redes, incluindo temas como:
 
@@ -15,11 +15,11 @@ Este repositório reúne topologias, configurações e anotações de estudos pr
 - Segurança de redes (port security, SSH, etc.)
 - Redes sem fio (Wi-Fi básico no Packet Tracer)
 
-## 🛠️ Ferramentas utilizadas
+## Ferramentas utilizadas
 
 - [Cisco Packet Tracer](https://www.netacad.com/courses/packet-tracer)
 
-## 📚 Referências
+## Referências
 
 - Documentação oficial da Cisco
 - Cisco Networking Academy 
