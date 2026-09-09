@@ -19,10 +19,6 @@ Este repositório reúne topologias, configurações e anotações de estudos pr
 
 - [Cisco Packet Tracer](https://www.netacad.com/courses/packet-tracer)
 
-## 🎯 Objetivo
-
-Documentar minha jornada de estudos em redes de computadores, servindo como material de consulta e revisão para certificações como CCST
-
 ## 📚 Referências
 
 - Documentação oficial da Cisco
