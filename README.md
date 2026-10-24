@@ -40,7 +40,7 @@ Separei a rede em três camadas, cada uma com uma função clara:
 
 **Endereçamento:** toda a rede usa um único bloco, `192.168.1.0/24`, **sem VLANs** nesta etapa.
 
-![Rede montada no Packet Tracer](Redes.png)
+![Rede montada no Packet Tracer](Modelo Hierárquico de 3 Camadas — Packet Tracer/Redes.png)
 
 *Rede montada no Cisco Packet Tracer seguindo as três camadas.*
 
