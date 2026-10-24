@@ -6,7 +6,7 @@
 ![Modelo](https://img.shields.io/badge/Modelo-Hier%C3%A1rquico%203%20Camadas-0A5F78?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Conclu%C3%ADdo-2E8B57?style=flat-square)
 
-![Demonstração da topologia hierárquica no Packet Tracer](<Gif do modelo H.gif>)
+![Demonstração da topologia hierárquica no Packet Tracer](<Modelo Hierárquico de 3 Camadas — Packet Tracer/Gif do modelo H.gif>)
 
 ---
 
@@ -40,7 +40,7 @@ Separei a rede em três camadas, cada uma com uma função clara:
 
 **Endereçamento:** toda a rede usa um único bloco, `192.168.1.0/24`, **sem VLANs** nesta etapa.
 
-![Rede montada no Packet Tracer](Modelo Hierárquico de 3 Camadas — Packet Tracer/Redes.png)
+![Rede montada no Packet Tracer](<Modelo Hierárquico de 3 Camadas — Packet Tracer/Redes.png>)
 
 *Rede montada no Cisco Packet Tracer seguindo as três camadas.*
 
@@ -112,9 +112,9 @@ Faltava **adicionar um módulo de rede manualmente** no equipamento, e isso prec
 
 | Arquivo | Descrição |
 |---|---|
-| [`Topologia de rede em camadas.pkt`](Topologia%20de%20rede%20em%20camadas.pkt) | Projeto do Packet Tracer (abra no Cisco Packet Tracer) |
-| [`Gif do modelo H.gif`](Gif%20do%20modelo%20H.gif) | Demonstração animada da topologia |
-| `readme.md` | Documentação do projeto |
+| [`Topologia de rede em camadas.pkt`](<Modelo Hierárquico de 3 Camadas — Packet Tracer/Topologia de rede em camadas.pkt>) | Projeto do Packet Tracer (abra no Cisco Packet Tracer) |
+| [`Gif do modelo H.gif`](<Modelo Hierárquico de 3 Camadas — Packet Tracer/Gif do modelo H.gif>) | Demonstração animada da topologia |
+| `README.md` | Documentação do projeto (na raiz do repositório) |
 
 ---
 
