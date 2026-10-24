@@ -6,9 +6,7 @@
 ![Modelo](https://img.shields.io/badge/Modelo-Hier%C3%A1rquico%203%20Camadas-0A5F78?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Conclu%C3%ADdo-2E8B57?style=flat-square)
 
-<p align="center">
-  <img src="Gif%20do%20modelo%20H.gif" alt="Demonstração da topologia hierárquica no Packet Tracer" width="750">
-</p>
+![Demonstração da topologia hierárquica no Packet Tracer](<Gif do modelo H.gif>)
 
 ---
 
